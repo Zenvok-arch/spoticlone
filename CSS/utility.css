@@ -1,0 +1,62 @@
+.border {
+    border: 2px solid black;
+    margin: 3px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+   filter: invert(1); 
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* Scrollbar Styling for Dark Theme */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;  /* Dark track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #444;    /* Scrollbar thumb color */
+  border-radius: 6px;
+  border: 2px solid #1a1a1a; /* Gives it a padding effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666;    /* Slightly lighter on hover */
+}
+
+/* Firefox Support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #444 #1a1a1a;  /* thumb track */
+}
